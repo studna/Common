@@ -25,7 +25,7 @@ class PasswordAttributeTest extends Tester\TestCase {
         Tester\Assert::null($user->changePassword('NEW', self::PWD));
         Tester\Assert::exception(function() use ($user) {
             $user->changePassword(self::PWD, 'WRONG');
-        }, Studna\Common\Exceptions\InvalidPasswordException::class);
+        }, 'Studna\Common\Exceptions\InvalidPasswordException');
     }
 
 }
