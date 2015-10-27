@@ -17,7 +17,7 @@
 
   "require": {
     "php": ">= 5.3.0",
-    "nette/security": "~2.3",
+    "nette/security": "~2.3"
   },
 
   "minimum-stability": "beta",
